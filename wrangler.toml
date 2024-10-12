@@ -1,0 +1,11 @@
+name = "websrai-store"
+main = "src/worker.ts"
+compatibility_date = "2024-02-22"
+
+[vars]
+DATABASE_URL = "your-neon-postgresql-connection-string"
+
+[[d1_databases]]
+binding = "DB"
+database_name = "websrai-store-db"
+database_id = "your-d1-database-id"
